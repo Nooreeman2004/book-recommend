@@ -2,9 +2,6 @@ data/*.csv filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 preprocessed/processed_books.csv filter=lfs diff=lfs merge=lfs -text
-data/Books.csv filter=lfs diff=lfs merge=lfs -text
-data/processed_ratings_with_details.csv filter=lfs diff=lfs merge=lfs -text
-backend/models/processed_ratings_with_details.csv filter=lfs diff=lfs merge=lfs -text
 ratings_with_details.csv filter=lfs diff=lfs merge=lfs -text
 backend/models/tfidf_matrix.npy filter=lfs diff=lfs merge=lfs -text
 tfidf_matrix.npy filter=lfs diff=lfs merge=lfs -text
