@@ -29,16 +29,12 @@ Model Comparison: Results of various model evaluations.
 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/Nooreeman2004/book-recommend.git
 cd book-recommend
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Set up environment variables:
 
@@ -46,20 +42,13 @@ Create a .env file and include your AWS S3 credentials and other necessary confi
 
 Run the backend:
 
-bash
-Copy
-Edit
 uvicorn main:app --reload
 Run the frontend:
 
-bash
-Copy
-Edit
+
 streamlit run app.py
 Project Structure
-plaintext
-Copy
-Edit
+
 project/
 ├── backend/
 │   ├── models/                # Pre-trained and generated models
@@ -89,8 +78,7 @@ Cloud Integration
 The project uses AWS S3 to store large datasets and models. Ensure your .env file contains the following:
 
 env
-Copy
-Edit
+
 AWS_ACCESS_KEY_ID=<your-access-key>
 AWS_SECRET_ACCESS_KEY=<your-secret-key>
 S3_BUCKET_NAME=<your-bucket-name>
